@@ -8,7 +8,7 @@ public interface Request {
     public String getURI();
 
     public static class Factory{
-        public static Request build(String string) {
+        public static Request build( RawParseInfo string ) {
             return new Transaction();//TODO
         }
     }

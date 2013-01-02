@@ -90,6 +90,6 @@ public class Transaction implements Request{
 
     @Override
     public String getURI() {
-        return "/v1/instrument/currency/";
+        return "/instrument/currency/";
     }
 }
