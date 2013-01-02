@@ -10,6 +10,7 @@
 
 
     <dependencies>
+
         <dependency>
             <groupId>oauth.signpost</groupId>
             <artifactId>signpost-core</artifactId>

@@ -59,7 +59,7 @@ public class UralsibGrabber implements Grabber {
         }
     }
 
-    static RawParseInfo getInfoFromSms( String smsText ) {
+    public static RawParseInfo getInfoFromSms( String smsText ) {
         smsText = smsText.replaceFirst( "^BANK\\sURALSIB\\.", "" );
 
         Matcher matcher = null;

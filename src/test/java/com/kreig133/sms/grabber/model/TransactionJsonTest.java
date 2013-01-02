@@ -13,8 +13,8 @@ public class TransactionJsonTest {
     @Test
     public void test() {
         Transaction transaction = new Transaction();
-        transaction.id = "12345";
+        transaction.id = 12345;
         Gson gson = new Gson();
-        Assert.assertEquals( "{\"id\":\"12345\"}",  gson.toJson(transaction) );
+        Assert.assertEquals( "{\"id\":12345}",  gson.toJson(transaction) );
     }
 }

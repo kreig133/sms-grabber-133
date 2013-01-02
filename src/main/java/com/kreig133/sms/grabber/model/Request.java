@@ -5,11 +5,13 @@ package com.kreig133.sms.grabber.model;
  * @version 1.0
  */
 public interface Request {
-    public String getURI();
+    String getURI();
 
     public static class Factory{
-        public static Request build( RawParseInfo string ) {
-            return new Transaction();//TODO
+        public static Request build( RawParseInfo parseInfo ) {
+            Transaction transaction = new Transaction();
+
+            return transaction;
         }
     }
 }
